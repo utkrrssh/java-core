@@ -3,7 +3,6 @@ import java.util.Scanner;
 class Bingo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.print("Input: ");
         int num1 = scanner.nextInt();
         int num2 = scanner.nextInt();
@@ -14,23 +13,20 @@ class Bingo {
         } else {
             System.out.println("Not Found");
         }
-
         scanner.close();
     }
-
-    public static boolean checkBingo(int num1, int num2, int[] array) {
-        boolean found1 = false;
-        boolean found2 = false;
+    public static boolean checkBingo(int num1, int num2, int[] array){
+        boolean foundyes = false;
+        boolean foundYes = false;
 
         for (int num : array) {
             if (num == num1) {
-                found1 = true;
+                foundyes = true;
             }
             if (num == num2) {
-                found2 = true;
+                foundYes = true;
             }
         }
-
-        return found1 && found2;
+        return foundyes && foundYes;
     }
 }
