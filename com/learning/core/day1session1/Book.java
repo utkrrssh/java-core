@@ -1,3 +1,5 @@
+package com.learning.core.day1session1;
+
 public class Book { private String bookTitle;
     private double bookPrice;
 
@@ -27,7 +29,7 @@ class Main {
     }
 
     public static void showBooks(Book book) {
-        System.out.println("Book Title: " + book.getBookTitle() + " and Price: " + book.getBookPrice());
+        System.out.println("day1session1.Book Title: " + book.getBookTitle() + " and Price: " + book.getBookPrice());
     }
 
     public static void main(String[] args) {
