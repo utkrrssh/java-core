@@ -1,5 +1,6 @@
 package com.learning.core.day1session1;
-public interface MedicineInfo {
+
+interface MedicineInfo {
     String displayLabel();
 }
 class Tablet implements MedicineInfo {

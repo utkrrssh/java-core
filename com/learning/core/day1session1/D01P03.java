@@ -2,8 +2,6 @@ package com.learning.core.day1session1;
 
 import java.util.Scanner;
 
-public class D01P03 {
-}
 class Month {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

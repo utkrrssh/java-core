@@ -1,6 +1,6 @@
 package com.learning.core.day1session1;
 
-public class Book { private String bookTitle;
+class Book { private String bookTitle;
     private double bookPrice;
 
     public String getBookTitle() {
@@ -39,3 +39,4 @@ class Main {
         showBooks(book);
     }
 }
+
